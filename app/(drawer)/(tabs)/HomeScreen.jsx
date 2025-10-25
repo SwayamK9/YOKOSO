@@ -1,16 +1,16 @@
-import { StyleSheet, Text, View } from 'react-native'
+import {
+   StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
-
+import { StatusBar } from 'react-native'
 const HomeScreen = () => {
   return (
-    <SafeAreaView>
-    <View>
-      <Text>HomeScreen</Text>
+    <View style={{backgroundColor:"#2a2b2bff", flex:1}}>
     </View>
-    </SafeAreaView>
-  )
+  );
 }
+
+
 
 export default HomeScreen
 
